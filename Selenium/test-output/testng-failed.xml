@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testng.practice.FormFillAddEmployee">
+        <methods>
+          <include name="addingEmployee"/>
+          <include name="setProperty"/>
+          <include name="closeBrowser"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.testng.practice.FormFillAddEmployee -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
