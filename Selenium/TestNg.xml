@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suit name="ParallelTest" parallel="methods" thread-count="2">
+<test name="google,facebook">
+<classes>
+<class name="com.testng.practice.TestNG"></class>
+</classes>
+</test>
+</suit>

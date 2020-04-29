@@ -63,7 +63,7 @@ public class LoginTest {
 		Login=driver.findElement(By.xpath("//*[@id=\"btnLogin\"]"));
 		
 	}
-	@Test
+	@Test(description = "login")
 	public void enterValidUserNamePassword1() throws InterruptedException {
 		String title=driver.getTitle();
 		

@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 
-public class FormFillAddEmployee {
+public class PriorityAndDependsonMethods {
 	WebDriver driver;
 	WebElement Username;
 	WebElement Password;
